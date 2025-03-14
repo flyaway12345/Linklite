@@ -4,7 +4,7 @@
         "name": "Links",
         "description":"The Links Module is a HIMediaTV built link in bio tool that is custom made to have everywhere we are on the internet present in one place",
         "img":"https://raw.githubusercontent.com/flyaway12345/Assets/refs/heads/main/HIMediaHub/img/modulePics/linkinbio.gif",
-        "link":"links",
+        "link":"",
         "isRouter":true,
         "display":1,
         "status":"active",
