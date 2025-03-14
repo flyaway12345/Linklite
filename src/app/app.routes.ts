@@ -9,7 +9,7 @@ export const routes: Routes = [
     {path: '' ,component: LinksComponent},
 {path: 'HIMediaHub', component: WatchboxComponent},
 {path: 'links', component: LinksComponent},
-{path: 'pay', component: PaymentComponent},
+{path: 'payment', component: PaymentComponent},
 {path: 'live', component: WatchboxComponent},
 {path: 'appDir', component: AppDirectoryComponent},
 {path: '**' ,component: Error404Component}
