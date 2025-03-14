@@ -6,7 +6,7 @@
 
 </form> -->
 <div class="row">
-        <div *ngFor="let item of appList | appDirSearch: search" class="card" style="width: 18rem;">
+        <div *ngFor="let item of appList" class="card" style="width: 18rem;">
             <div class="card-body" *ngIf="item.display === 1">
                 <img src="{{item.img}}" alt="">
                 <h2 class="card-title">

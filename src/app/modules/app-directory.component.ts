@@ -2,7 +2,6 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { AppDirectoryServiceService } from './app-directory-service.service';
-import { AppDirSearchPipe } from "./app-dir-search.pipe";
 @Component({
     selector: 'app-app-directory',
     standalone: true,
@@ -12,8 +11,7 @@ import { AppDirSearchPipe } from "./app-dir-search.pipe";
         RouterOutlet,
         RouterLink,
         RouterLinkActive,
-        CommonModule,
-        AppDirSearchPipe
+        CommonModule
     ]
 })
 

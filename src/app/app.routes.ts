@@ -6,7 +6,7 @@ import { WatchboxComponent } from './modules/watchbox/watchbox.component';
 import { PaymentComponent } from './modules/payment/payment.component';
 
 export const routes: Routes = [
-    {path: '' ,component: LinksComponent},
+    {path: '' , redirectTo: 'links', pathMatch: 'full'},
     {path: 'links', component: LinksComponent},
     {path: 'payment', component: PaymentComponent},
     {path: 'live', component: WatchboxComponent},
