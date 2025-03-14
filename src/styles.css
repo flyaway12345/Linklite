@@ -1,0 +1,63 @@
+/* You can add global styles to this file, and also import other style files */
+html, body {
+     height: 100%;
+ }
+body {
+     margin: 0;
+     font-family: Roboto, "Helvetica Neue", sans-serif;
+     background-color: #313131;
+}
+p,h1,h2,h3,h4,h5,h6 {
+     color:white
+}
+
+.btn {
+      margin-left:0.1em;
+}
+.gap{
+     margin-bottom: 2em;
+ }
+ .nav-link,h2 {
+  color: white;
+}
+
+.btn-primary{
+  margin-bottom: 1em;
+  display: inline-block;
+}
+
+.navbar{
+  margin-bottom: 4%;
+}
+li {
+  list-style-type:none;
+}
+.offcanvas-body,.offcanvas-header{
+  background-color: #212555;
+}
+.btn-close{
+  background-color: white;
+}
+iframe {
+  display: inline-block;
+}
+
+.kick {
+  background-color: #00e701;
+}
+.twitch {
+  background-color: #5b24c2;
+}
+.youtube {
+  background-color: #FF0000;
+}
+.trovo {
+  background-color:#158171;
+}
+.fa-brands{
+  color:white;
+}
+.trovo-icon {
+      height: 20px;
+      width: 20px;
+}

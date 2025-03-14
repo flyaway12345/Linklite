@@ -1,0 +1,23 @@
+<div class="d-flex justify-content-center">
+    <h1 style="color: white;">App Directory</h1>
+</div>
+<!-- <form action="">
+<input type="text" class="form-control"  placeholder="search functionality WIP" [(ngModel)]="search">
+
+</form> -->
+<div class="row">
+        <div *ngFor="let item of appList | appDirSearch: search" class="card" style="width: 18rem;">
+            <div class="card-body" *ngIf="item.display === 1">
+                <img src="{{item.img}}" alt="">
+                <h2 class="card-title">
+                {{item.name}}
+                </h2>
+                <p class="card-text">
+                    {{item.description}}
+                <br>
+                </p>
+                <a *ngIf="item.isRouter === true"  class="btn btn-primary" routerLink="../{{item.link}}">{{item.name}}</a>
+                <a *ngIf="item.isRouter === false" class="btn btn-primary" href="{{item.link}}">{{item.name}}</a>
+            </div>
+        </div>
+</div>
