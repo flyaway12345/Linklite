@@ -26,7 +26,7 @@
         "name": "Payment",
         "description":"Accept Payment From Embeded Payment Pro",
         "img":"https://raw.githubusercontent.com/flyaway12345/Assets/refs/heads/main/HIMediaHub/img/modulePics/Payment.png",
-        "link":"links",
+        "link":"payment",
         "isRouter":true,
         "display":1,
         "status":"active",

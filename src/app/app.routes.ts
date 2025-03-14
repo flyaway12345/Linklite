@@ -7,7 +7,6 @@ import { PaymentComponent } from './modules/payment/payment.component';
 
 export const routes: Routes = [
     {path: '' ,component: LinksComponent},
-{path: 'HIMediaHub', component: WatchboxComponent},
 {path: 'links', component: LinksComponent},
 {path: 'payment', component: PaymentComponent},
 {path: 'live', component: WatchboxComponent},
