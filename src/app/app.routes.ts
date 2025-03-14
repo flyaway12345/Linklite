@@ -5,8 +5,6 @@ import { LinksComponent } from './modules/links/links.component';
 import { WatchboxComponent } from './modules/watchbox/watchbox.component';
 import { PaymentComponent } from './modules/payment/payment.component';
 
-
-
 export const routes: Routes = [
     {path: '' ,component: LinksComponent},
 {path: 'HIMediaHub', component: WatchboxComponent},
